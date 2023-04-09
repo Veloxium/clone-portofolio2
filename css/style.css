@@ -517,3 +517,124 @@ textarea::placeholder {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  nav .nav-menu{
+    padding: 5px 20px;
+  }
+  .logo{
+    display: flex;
+  }
+  .menulist{
+    display: none;
+  }
+  .home{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .main-1{
+    display: flex;
+    width: 100%;
+    padding: 60px 4px;
+  }
+  .teks h1{
+    font-size: 26px;
+  }
+  .main-2{
+    display: flex;
+    margin-right: 0px;
+    width: 100%;
+    justify-content: center;
+  }
+  .main-2 img{
+    width: 300px;
+  }
+  .main-3 {
+    display: flex;
+    width: 100%;
+    padding: 50px 4px;
+  }
+  .teks{
+    padding: 0px 20px;
+  }
+  .social-1{
+    display: none;
+  }
+  .social-2{
+    display: none;
+  }
+  .detail{
+    display: flex;
+    padding: 30px;
+  }
+  .c-detail{
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .teks-2 h2 svg{
+    width: 40px;
+    height: 40px;
+  }
+  .teks-2 h2{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .teks-2 h4{
+    font-weight: normal;
+  }
+  .icon{
+    display: flex;
+    flex-direction: column;
+  }
+  .tbl-icon{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portofolio{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+  .c-box-porto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .box-porto img{
+    width: 300px;
+  }
+  .box-porto{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 300px;
+  }
+  .contact{
+    display: flex;
+    padding: 50px 30px;
+  }
+  .contact .list-icon{
+    padding: 0px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .list-icon a {
+  align-items: center;
+  display: flex;
+  padding: 2px 10px;
+  margin: 0px;
+  font-size: 12px;
+  font-weight: normal;
+  }
+  .contact .list-2{
+    margin-top: 10px;
+  }
+}
