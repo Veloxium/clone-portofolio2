@@ -480,8 +480,14 @@ textarea::placeholder {
 .contact-text-icon .list-contact-icon svg {
   fill: #fd8791;
 }
+.textarea1{
+  display: flex;
+}
+.textarea2{
+  display: none;
+}
 
-/* Contact Page */
+/* About Page */
 .c-about {
   padding: 100px;
   background-color: #191919;
@@ -681,6 +687,54 @@ textarea::placeholder {
 }
 .c-about .t-about h1{
   font-size: 24px;
+}
+
+/* Contact Page */
+.c-contact-page {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  width: 100%;
+}
+.firstname {
+  width: 280px;
+}
+.lastname {
+  width: 120px;
+}
+.form {
+  width: 450px;
+}
+textarea:focus {
+  outline: 2px solid #fff;
+}
+.textarea1{
+  display: none;
+}
+.textarea2{
+  display: flex;
+}
+.submit {
+  display: flex;
+  justify-content: end;
+  margin: 10px 0px 40px -2px;
+}
+.contact-text {
+  color: #fff;
+  width: 100%;
+}
+.contact-text p {
+  margin: 0px;
+}
+.contact-text-icon {
+  display: flex;
+  flex-direction: column;
 }
 
 }
