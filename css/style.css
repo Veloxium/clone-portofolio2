@@ -44,6 +44,9 @@ nav {
   background-color: #191919;
   /* box-shadow: 0px 6px 5px 0px rgba(49,49,49,0.30); */
 }
+.hamburger{
+  display: none;
+}
 nav .nav-menu {
   padding: 5px 100px;
 }
@@ -508,7 +511,7 @@ textarea::placeholder {
   margin-top: 10px;
 }
 .t-about .prestasi {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 5px;
 }
@@ -527,6 +530,56 @@ textarea::placeholder {
 @media only screen and (max-width: 600px) {
   nav{
     width: none;
+  }
+  .hamburger{
+    display: flex;
+    margin: 5px 30px;
+    cursor: pointer;
+    flex-direction: column;
+  }
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 3px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #fd8791;
+  }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(9px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-9px) rotate(-45deg);
+  }
+  .hamburger-menu ul{
+    display: flex;
+    flex-direction: column;
+    background-color: #191919;
+    position: fixed;
+    z-index: 1;
+    margin-top: 60px;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+    padding: 80px 0px;
+    height: 105%;
+  }
+  .hamburger-menu ul li{
+    margin: 0px;
+  }
+  .hamburger-menu .ig::before{
+    display: none;
+  }
+  .hamburger-menu{
+    position: relative;
+    left: 100%;
+    transition: all 0.5s linear;
+  }
+  .hamburger-menu.active{
+    left: 0%;
   }
   nav .nav-menu{
     padding: 5px 20px;
