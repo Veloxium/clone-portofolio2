@@ -647,6 +647,7 @@ textarea::placeholder {
   /* Portofolio Page */
   .c-portofolio-page {
   padding-top: 120px;
+  padding-bottom: 120px;
   }
 
   /* Contact Page */
