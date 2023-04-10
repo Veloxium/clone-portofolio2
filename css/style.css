@@ -640,4 +640,47 @@ textarea::placeholder {
   .contact .list-2{
     margin-top: 10px;
   }
+  .f-teks p{
+    font-size: 14px;
+  }
+
+  /* Portofolio Page */
+  .c-portofolio-page {
+  padding-top: 120px;
+  height: 100vh;
+  }
+
+  /* Contact Page */
+.c-about {
+  padding: 0px 20px;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
+}
+.c-about .about-img {
+  padding-top: 60px;
+  display: flex;
+}
+.c-about .about-img img{
+  width: 300px;
+}
+.c-about .t-about {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 100%;
+}
+.c-about .t-about p {
+  margin-top: 10px;
+}
+.t-about .prestasi {
+  display: none;
+  align-items: center;
+  gap: 5px;
+}
+.c-about .t-about h1{
+  font-size: 24px;
+}
+
 }
