@@ -462,6 +462,7 @@ textarea::placeholder {
 .contact-text {
   color: #fff;
   width: 50%;
+  margin-left: 40px;
 }
 .contact-text p {
   margin: 0px;
@@ -975,6 +976,8 @@ textarea::placeholder {
   .c-about .about-img {
     padding-top: 60px;
     display: flex;
+    justify-content: center;
+    width: 100%;
   }
   .c-about .about-img img {
     width: 300px;
@@ -999,51 +1002,17 @@ textarea::placeholder {
 
   /* Contact Page */
   .c-contact-page {
+    height: 100%;
     padding: 100px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    margin-left: 0px;
-    width: 100%;
-  }
-  .firstname {
-    width: 60%;
-  }
-  .lastname {
-    width: 30%;
-  }
-  .form {
-    width: 450px;
-  }
-  textarea:focus {
-    outline: 2px solid #fff;
-  }
-  .textarea1 {
-    display: none;
-  }
-  .textarea2 {
-    display: flex;
-  }
-  .submit {
-    display: flex;
-    justify-content: end;
-    margin: 10px 0px 40px -2px;
-  }
-  .contact-text {
-    color: #fff;
-    width: 100%;
-  }
-  .contact-text p {
-    margin: 0px;
-  }
-  .contact-text-icon {
-    display: flex;
-    flex-direction: column;
-  }
+ .contact-text{
+  padding: 20px 20px;
+  width: 80%;
+ }
+
   .contact-text-icon .list-contact-icon a {
     color: #fff;
     align-items: center;
