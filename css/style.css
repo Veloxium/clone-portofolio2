@@ -978,6 +978,7 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-bottom: 40vh;
   }
   .c-about .about-img img {
     width: 300px;
@@ -1003,7 +1004,7 @@ textarea::placeholder {
   /* Contact Page */
   .c-contact-page {
     height: 100%;
-    padding: 100px 20px;
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
