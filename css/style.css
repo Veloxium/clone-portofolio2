@@ -754,22 +754,22 @@ textarea::placeholder {
     padding: 100px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
   }
   .contact-form {
     display: flex;
     flex-direction: column;
     margin-left: 0px;
-    width: 100%;
+    width: 95%;
   }
   .firstname {
     width: 60%;
   }
   .lastname {
-    width: 30%;
+    width: 40%;
   }
   .form {
-    width: 450px;
+    width: 100%;
   }
   textarea:focus {
     outline: 2px solid #fff;
@@ -965,7 +965,7 @@ textarea::placeholder {
     padding-bottom: 120px;
   }
 
-  /* Contact Page */
+  /* About Page */
   .c-about {
     padding: 0px 20px;
     background-color: #191919;
@@ -1007,7 +1007,9 @@ textarea::placeholder {
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 40px;
   }
  .contact-text{
   padding: 20px 20px;
