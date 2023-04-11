@@ -716,7 +716,7 @@ textarea::placeholder {
     padding-bottom: 120px;
   }
 
-  /* Contact Page */
+  /* About Page */
   .c-about {
     padding: 0px 20px;
     background-color: #191919;
@@ -788,6 +788,7 @@ textarea::placeholder {
   .contact-text {
     color: #fff;
     width: 100%;
+    margin-left: 0px;
   }
   .contact-text p {
     margin: 0px;
