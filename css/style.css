@@ -978,10 +978,10 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-bottom: 40vh;
+    padding-bottom: 20vh;
   }
   .c-about .about-img img {
-    width: 300px;
+    width: 80%;
   }
   .c-about .t-about {
     display: flex;
